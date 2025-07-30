@@ -21,4 +21,4 @@ jobs:
       - name: Scan with Trivy
         uses: cloudbees-io/trivy-plugin@v2
         with:
-          binary-tar-path: ./golang.tar
+          binary-tar-path: ./golang-alpine.tar
